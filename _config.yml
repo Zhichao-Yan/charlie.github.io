@@ -38,8 +38,8 @@ social:
   email: yzc53@icloud.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/不动游星 # change to your twitter homepage
     - https://github.com/zhichao-yan # change to your github homepage
+    - https://twitter.com/不动游星 # change to your twitter homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
@@ -73,9 +73,11 @@ theme_mode: # [light|dark]
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
+# head photo
 avatar: ./1.jpeg
 
 # boolean type, the global switch for TOC in posts.
+# table of content globally
 toc: true
 
 comments:
