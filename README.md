@@ -50,6 +50,7 @@ Please see the [theme's docs](https://github.com/cotes2020/jekyll-theme-chirpy#d
 
 ## reference
 [blog](https://chirpy.cotes.page/posts/write-a-new-post/)
+[jekyll-compose](https://github.com/jekyll/jekyll-compose)
 
 ## License
 

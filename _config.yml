@@ -194,3 +194,24 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
+
+jekyll_compose:
+  default_front_matter:
+    drafts:
+      img_path: /../assets/img/pic
+      image: head/hdu.jpeg
+      category: [default]
+      toc: true
+      comments: false
+      math: true 
+      mermaid: true
+      hidden: false
+    posts:
+      img_path: /../assets/img/pic
+      image: head/hdu.jpeg
+      category: [default]
+      toc: true
+      comments: false
+      math: true 
+      mermaid: true
+      hidden: false
