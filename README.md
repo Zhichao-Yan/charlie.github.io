@@ -49,8 +49,8 @@ Please see the [theme's docs](https://github.com/cotes2020/jekyll-theme-chirpy#d
 `bundle exec jekyll s --incremental`
 
 ## reference
-[blog](https://chirpy.cotes.page/posts/write-a-new-post/)
-[jekyll-compose](https://github.com/jekyll/jekyll-compose)
+* [blog](https://chirpy.cotes.page/posts/write-a-new-post/)  
+* [jekyll-compose](https://github.com/jekyll/jekyll-compose)
 
 ## command
 1. `bundle exec jekyll post "My New Post"`
