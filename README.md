@@ -52,6 +52,12 @@ Please see the [theme's docs](https://github.com/cotes2020/jekyll-theme-chirpy#d
 [blog](https://chirpy.cotes.page/posts/write-a-new-post/)
 [jekyll-compose](https://github.com/jekyll/jekyll-compose)
 
+## command
+1. `bundle exec jekyll post "My New Post"`
+2. `bundle exec jekyll draft "My new draft"`
+3. `bundle exec jekyll publish _drafts/my-new-draft.md`
+4. `bundle exec jekyll unpublish _posts/2014-01-24-my-new-draft.md`
+
 ## License
 
 This work is published under [MIT][mit] License.
