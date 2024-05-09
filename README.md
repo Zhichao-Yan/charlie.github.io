@@ -48,6 +48,9 @@ Please see the [theme's docs](https://github.com/cotes2020/jekyll-theme-chirpy#d
 ## preview
 `bundle exec jekyll s --incremental`
 
+## reference
+[blog](https://chirpy.cotes.page/posts/write-a-new-post/)
+
 ## License
 
 This work is published under [MIT][mit] License.
