@@ -1,5 +1,7 @@
+#  modify the options to decide where to share
 #  Sharing options at the bottom of the post.
 #  Icons from <https://fontawesome.com/>
+
 
 platforms:
   - type: Twitter
