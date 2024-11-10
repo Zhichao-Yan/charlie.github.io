@@ -3,7 +3,7 @@ layout: post
 title: Linux常用命令
 date: 2024-09-15 11:01 +0800
 img_path: "/../assets/img/pic"
-image: head/hdu.jpeg
+image: head/cat.jpg
 category:
 - default
 toc: true
@@ -11,6 +11,7 @@ comments: false
 math: true
 mermaid: true
 hidden: false
+pin: true
 ---
 
 ## shell内置命令和外部命令区别
@@ -27,12 +28,14 @@ hidden: false
 ## 内置命令和外部命令区分
 使用`type`命令查看
 ```shell
-root@iZbp19rh4d6jcag5epp4hrZ:/usr/bin# type ls
+root@iZbp19rh4d6jcag5epp4hrZ:/usr/bin# type -a ls
 ls is aliased to `ls --color=auto'
 ```
 ```shell
-root@iZbp19rh4d6jcag5epp4hrZ:/usr/bin# type pwd
+root@iZbp19rh4d6jcag5epp4hrZ:/usr/bin# type -a pwd
 pwd is a shell builtin
+pwd is /usr/bin/pwd
+pwd is /bin/pwd
 ```
 
 
@@ -40,6 +43,9 @@ pwd is a shell builtin
 * `pwd`
 * `cd`
 * `echo`
+* `type`
+* `alias`
+* `history`
 
 
 ## 外部命令
@@ -59,7 +65,7 @@ print system information
 show or set the system's host name
 * `who`
 show who is logged on
-* `ps -aux`
+* `ps -ef`
 report a snapshot of the current processes.
 * `top`
 display Linux processes
