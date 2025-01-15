@@ -43,7 +43,6 @@ Sign in to GitHub and [**use this template**][use-template] to generate a brand 
 `USERNAME.github.io`, where `USERNAME` represents your GitHub username.
 
 Then clone it to your local machine and run:
-
 ```console
 $ bundle
 ```
@@ -53,6 +52,8 @@ $ bundle
 Please see the [theme's docs](https://github.com/cotes2020/jekyll-theme-chirpy#documentation).
 
 ## preview
+`bundle exec jekyll s`
+or
 `bundle exec jekyll s --incremental`
 
 ## reference
