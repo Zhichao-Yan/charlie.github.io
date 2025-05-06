@@ -73,6 +73,10 @@ jobs:
     runs-on: ubuntu-latest
     needs: build
     steps:
+      - name: Debug Deployment
+        run: |
+          echo "Base path: ${{ steps.pages.outputs.base_path }}"
+          echo "Environment URL: ${{ steps.deployment.outputs.page_url }}"
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
