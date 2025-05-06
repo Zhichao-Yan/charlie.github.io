@@ -46,7 +46,7 @@ jobs:
           bundler-cache: true
 
       - name: Build site
-        run: bundle exec jekyll b -d "_site${{ steps.pages.outputs.base_path }}"
+        run: bundle exec jekyll b -d "_site"
         env:
           JEKYLL_ENV: "production"
 
@@ -56,9 +56,9 @@ jobs:
             \-\-disable-external=true \
             \-\-ignore-urls "/^http:\/\/127.0.0.1/,/^http:\/\/0.0.0.0/,/^http:\/\/localhost/"
 
-      - name: Debug Artifact Upload
+      - name: Debug Artifact Contents
         run: |
-          pwd 
+          echo "Contents of _site:"
           ls -la _site
       
       - name: Upload site artifact
